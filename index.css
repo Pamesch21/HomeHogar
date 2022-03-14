@@ -64,10 +64,23 @@
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 background-color: aliceblue;
+animation-duration: 1s;
+animation-name: animate__backInLeft;
+animation-iteration-count: infinite;
    
-    
   
 }
+
+@keyframes animate__backInLeft {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
 
 .centrar-link {
     text-align: center;
@@ -87,11 +100,15 @@ background-color: aliceblue;
    
    .sillon {
        text-align: left;
-       
+   
    }
    .maseta{
        text-align:left;
+
    
+   }
+   .amelia {
+    transform: translate(70px, 20px);
    }
    
 
@@ -268,6 +285,7 @@ background-color: aliceblue;
     text-align: center;
     width: 20px;
     height: 20px;
+    
 
 }
 
@@ -275,12 +293,13 @@ background-color: aliceblue;
 /*footer*/
 footer {
     background-color: rgb(191, 218, 241);
- padding:0%;
- text-align: center;
- position: absolute;
- bottom: 0%;
- width: 100%;
- display: block;
+padding: 5%;
+margin: auto; padding:0%;
+text-align: center;
+position: absolute;
+bottom: 0%;
+width: 100%;
+display: block;
 
 }
 
