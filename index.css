@@ -138,9 +138,23 @@ animation-iteration-count: infinite;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 15%;
     padding: 10%;
-    
-    
+    animation-duration: 1s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+    overflow: hidden;
 }
+ @keyframes aparecer {
+     0% {
+         opacity: 0;
+     }
+     100%{
+         opacity: 1;
+     }
+ }
+
+    
+    
+
 
 .fuente-t {
     width: auto;
@@ -169,9 +183,24 @@ animation-iteration-count: infinite;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 15%;
     padding: 10%;
-    
-    
+    animation-duration: 1s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+    overflow: hidden;
 }
+ @keyframes aparecer {
+     0% {
+         opacity: 0;
+     }
+     100%{
+         opacity: 1;
+     }
+ }
+
+    
+    
+    
+
 
 .fuente-L {
     width: auto;
@@ -198,10 +227,23 @@ animation-iteration-count: infinite;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 15%;
     padding: 10%;
-    
-    
-    
+    animation-duration: 1s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+    overflow: hidden;
 }
+ @keyframes aparecer {
+     0% {
+         opacity: 0;
+     }
+     100%{
+         opacity: 1;
+     }
+ }
+
+    
+    
+
 
 .fuente-k{
     width: auto;
@@ -242,8 +284,21 @@ animation-iteration-count: infinite;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 15%;
     padding: 10%;
-    
+    animation-duration: 1s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+    overflow: hidden;
 }
+ @keyframes aparecer {
+     0% {
+         opacity: 0;
+     }
+     100%{
+         opacity: 1;
+     }
+ }
+
+
 
 .fuente-b{
     width: auto;
@@ -288,6 +343,10 @@ animation-iteration-count: infinite;
     
 
 }
+.logo {
+    text-align: center;
+}
+
 
 
 /*footer*/
@@ -300,6 +359,7 @@ position: absolute;
 bottom: 0%;
 width: 100%;
 display: block;
+font-family:fantasy
 
 }
 
@@ -354,6 +414,7 @@ padding: 5%;
 
 /*MEDIA QUERIES*/
 
+
 @media screen and (max-width: 480px) {
     body  {
       
@@ -368,7 +429,7 @@ padding: 5%;
 }
 .parraf{
     flex-grow: 1;
-        font-size: 20px;
+        font-size: 15px;
         text-align: center;
         margin: 20%;
         padding: 5%;
@@ -380,13 +441,100 @@ padding: 5%;
         animation-name: aparecer;
         animation-iteration-count: infinite;
         overflow: hidden;
+        text-align: center;
     } 
     .footer{
       
         width: 100%;
-        height: 5%;
-        background-color: red;
+   text-align: center;
+  
     
+    }
+    .form{
+     text-align: center;
+    }
+    
+    .header .navbar-conteiner{
+        flex-wrap: wrap;
+        display: inline;
+    }
+    
+    
+    .titulo-diseño {
+        text-align:center;
+        position: static;
+    
+    
+     }
+ 
+}
+
+
+  @media screen and (max-width: 600px) {
+    .menu{
+        flex-grow: 1;
+        flex-wrap: wrap;
+    }
+    .parraf{
+        flex-grow: 1; 
+    }
+    .footer{
+        flex-grow: 1;
+        flex-wrap: wrap;
+    
+    }
+
+     
+  }
+   
+  @media screen and (min-width: 1024px) {
+    body  {
+      
+       grid-column: 1/4;
+       width: 100%;
+     
+    }
+
+    .amelia {
+        transform: translate(70px, 20px);
+
+       }
+   
+
+.menu{
+    flex-grow: 1;
+    flex-wrap: wrap;
+    display: inline;
+}
+.parraf{
+    flex-grow: 1;
+        font-size: 25px;
+        text-align: center;
+        margin: 20%;
+        padding: 5%;
+        width: 60%;
+        height: auto;
+        background-color: aliceblue;
+        margin-top: 15%;
+        animation-duration: 1s;
+        animation-name: aparecer;
+        animation-iteration-count: infinite;
+        overflow: hidden;
+        text-align: center;
+        
+    } 
+    .footer{
+      
+        width: 100%;
+   text-align: center;
+   height: 100px;
+   transition: 2s;
+    }
+    .footer:hover{
+height: 200px;
+
+
+
     }
     .form{
      text-align: center;
@@ -410,23 +558,3 @@ padding: 5%;
       text-align: center;
   }
 }
-
-
-  @media screen and (max-width: 600px) {
-    .menu{
-        flex-grow: 1;
-        flex-wrap: wrap;
-    }
-    .parraf{
-        flex-grow: 1; 
-    }
-    .footer{
-        flex-grow: 1;
-        flex-wrap: wrap;
-    
-    }
-
-     
-  }
-   
-    
