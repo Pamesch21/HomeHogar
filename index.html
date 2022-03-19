@@ -59,9 +59,9 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 <!-- <header> ACA VA TODA LA PARTE DE LOGO Y CLICK -->
 <nav class="navbar-conteiner">
 	<a class="navbarbrand" href="index.html"></a>
-	<picture">
-		<img class="Logo"  src ="file:///C:/Users/Usuario/OneDrive/Documentos/proyecto%201/logo_DecoHome.png" alt="LOGO" width="300px" height="200px" >
-	</picture>
+
+		<img class="Logo"  src ="./imagenes/logo_DecoHome.png" height="200px" width="200px">
+
 	
 	<!-- Para que se coviertan en cliqueables : Li*5>a -->
 
@@ -106,32 +106,44 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 
 
  <section class="grid-container">
-	 
-
-<div class="sillon"> 
-
-	<img class="animate__animated animate__backInLeft"  src="file:///C:/Users/Usuario/Downloads/Cirkel%20op%20de%20muur%20verven%20in%205%20simpele%20stappen.png" alt="Sillon" width="500px" height="500px"> 
-	<img class="animate__animated animate__backInLeft" src="file:///C:/Users/Usuario/Downloads/Une%20maison%20au%20design%20Wabi-sabi%20en%20Californie%20-%20PLANETE%20DECO%20a%20homes%20world.jpg"  width="500px" height="500px">
-	<img class="animate__animated animate__backInLeft" src="file:///C:/Users/Usuario/Downloads/Knusse%20eethoek.jpg"  width="500px" height="500px">
-</div> 
-	
-	
-
-  <div  class="amelia"> 
-	<img class="animate__animated animate__backInLeft" src="file:///C:/Users/Usuario/Downloads/Une%20maison%20au%20design%20Wabi-sabi%20en%20Californie%20-%20PLANETE%20DECO%20a%20homes%20world.jpg"  width="500px" height="500px">
-	<img class="animate__animated animate__backInLeft" src="  file:///C:/Users/Usuario/Downloads/Mobilier%20de%20jardin.jpg"  width="500px" height="500px">
-	<img class="animate__animated animate__backInLeft" src="file:///C:/Users/Usuario/Downloads/Un%20muro,%20un%20color%20_%20Blog%20Homy.jpg"  width="500px" height="500px">
-
-  </div>   
-
-
-
-<div class="maseta"> 
-
-	<img class="animate__animated animate__backInLeft" src="file:///C:/Users/Usuario/Downloads/alyssa-strohmann-2r2RUsEU1Aw-unsplash.jpg" width="500px" height="500px" >
-	<img class="animate__animated animate__backInLeft" src="file:///C:/Users/Usuario/Downloads/descarga%20(1).jpg" width="500px" height="500px" >
-	<img class="animate__animated animate__backInLeft" src="file:///C:/Users/Usuario/Downloads/Bathroom%20goals.jpg" width="500px" height="500px" >
-</div>
+	<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+		  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		</div>
+		<div class="carousel-inner">
+		  <div class="carousel-item active">
+			<img src="./imagenes/principal6.jpg" class="d-block w-100" alt="...">
+			<div class="carousel-caption d-none d-md-block">
+			  <h5>Del 23/03 al 30/03 50% OFF</h5>
+			  <p>En toda la tienda</p>
+			</div>
+		  </div>
+		  <div class="carousel-item">
+			<img src="./imagenes/principal10.jpg" class="d-block w-100" alt="...">
+			<div class="carousel-caption d-none d-md-block">
+			  <h5>Del 23/03 al 30/03 50% OFF</h5>
+			  <p>Some representative placeholder content for the second slide.</p>
+			</div>
+		  </div>
+		  <div class="carousel-item">
+			<img src="./imagenes/principal10.png" class="d-block w-100" alt="...">
+			<div class="carousel-caption d-none d-md-block">
+			  <h5>Del 23/03 al 30/03 50% OFF</h5>
+			  <p>Some representative placeholder content for the third slide.</p>
+			</div>
+		  </div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Next</span>
+		</button>
+	  </div>
 
  </section>
  <br>
@@ -141,7 +153,46 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 </main>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<section class="flexcard">
+
+	<div>
+		<div class="card" style="width: 18rem;">
+			<img src="./imagenes/principal (1).jpg" class="card-img-top" alt="...">
+			<div class="card-body">
+			  <h5 class="card-title">Card title</h5>
+			  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			  <a href="#" class="btn btn-primary">Go somewhere</a>
+			</div>
+		  </div>
+	</div>
+	<div>
+		<div class="card" style="width: 18rem;">
+			<img src="./imagenes/principal (1).jpg" class="card-img-top" alt="...">
+			<div class="card-body">
+			  <h5 class="card-title">Card title</h5>
+			  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			  <a href="#" class="btn btn-primary">Go somewhere</a>
+			</div>
+		  </div>
+	</div>
+	<div>
+		<div class="card" style="width: 18rem;">
+			<img src="./imagenes/principal (1).jpg" class="card-img-top" alt="...">
+			<div class="card-body">
+			  <h5 class="card-title">Card title</h5>
+			  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			  <a href="#" class="btn btn-primary">Go somewhere</a>
+			</div>
+		  </div>
+	</div>
+
+</section>
+
 </body>
+
+
+
+
 <br>
 <br>
 <br>

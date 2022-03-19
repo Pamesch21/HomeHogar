@@ -16,7 +16,12 @@
   
 }
 
-
+.flexcard{
+    flex-grow: 1;
+    flex-wrap: wrap;
+    display: inline;
+    
+}
 .navbar-conteiner {
     text-align: center;
     
@@ -343,11 +348,14 @@ animation-iteration-count: infinite;
     
 
 }
-.logo {
+.Logo {
     text-align: center;
+
 }
 
-
+.Boos{
+    size: 100px;
+}
 
 /*footer*/
 footer {
