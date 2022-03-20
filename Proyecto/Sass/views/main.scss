@@ -1,0 +1,69 @@
+/*MAIN*/
+
+.descuento {
+    background-color: aliceblue;
+    width: auto;
+    height:auto 100px;
+ border-style: double;
+ 
+          .centrar  {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: aliceblue;
+animation-duration: 1s;
+animation-name: animate__backInLeft;
+animation-iteration-count: infinite;
+   
+  
+}
+
+@keyframes animate__backInLeft {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+          .parraf {
+    font-size: 70px;
+    text-align: center;
+    margin: 20%;
+    padding: 5%;
+    width: 60%;
+    height: auto;
+    background-color: aliceblue;
+    margin-top: 15%;
+    animation-duration: 1s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+}
+ @keyframes aparecer {
+     0% {
+         opacity: 0;
+     }
+     100%{
+         opacity: 1;
+     }
+ }
+
+
+}
+
+
+   
+
+/*GRID*/
+.grid-container {
+    display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap:50px;
+  grid-row-gap:50px 50px 50px;
+justify-items:center;
+grid-column: 1/3 2/4;
+padding: 5%;
+       
+}
+

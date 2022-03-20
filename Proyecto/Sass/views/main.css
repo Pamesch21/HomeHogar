@@ -1,0 +1,87 @@
+/*MAIN*/
+.descuento {
+  background-color: aliceblue;
+  width: auto;
+  height: auto 100px;
+  border-style: double;
+}
+
+.descuento .centrar {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: aliceblue;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-name: animate__backInLeft;
+          animation-name: animate__backInLeft;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes animate__backInLeft {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes animate__backInLeft {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.descuento .parraf {
+  font-size: 70px;
+  text-align: center;
+  margin: 20%;
+  padding: 5%;
+  width: 60%;
+  height: auto;
+  background-color: aliceblue;
+  margin-top: 15%;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  overflow: hidden;
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*GRID*/
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 50px;
+  grid-row-gap: 50px 50px 50px;
+  justify-items: center;
+  grid-column: 1/3 2/4;
+  padding: 5%;
+}
+/*# sourceMappingURL=main.css.map */

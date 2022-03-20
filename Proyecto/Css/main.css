@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*BODY*/
+
+.body {
+   position: relative;
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 100vh;
+ 
+  
+}
+
+.flexcard{
+    flex-grow: 1;
+    flex-wrap: wrap;
+    display: inline;
+    
+}
+
+
+
+
+
+/*FORM*/
+
+.negrita {
+    font-weight: bold;
+}
+
+.achicar {
+    font-size: 20px;
+}
+
+
+
+/*CSS TOILETS*/
+.centrarfoto {
+    text-align: center;
+    font-size: 100px;
+    padding: 10%
+}
+.parrafo {
+    text-align: center;
+    font-weight: bold;
+    background-color: aliceblue;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15%;
+    padding: 10%;
+    animation-duration: 1s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+}
+ @keyframes aparecer {
+     0% {
+         opacity: 0;
+     }
+     100%{
+         opacity: 1;
+     }
+ }
+
+    
+    
+
+
+.fuente-t {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+
+/*CSS LIVINGROOM*/
+
+.centrarfoto {
+    text-align: center;
+    font-size: 100px;
+    padding: 10%
+    
+}
+.parrafo-L {
+    text-align: center;
+    font-weight: bold;
+    background-color: aliceblue;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15%;
+    padding: 10%;
+    animation-duration: 1s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+}
+ @keyframes aparecer {
+     0% {
+         opacity: 0;
+     }
+     100%{
+         opacity: 1;
+     }
+ }
+
+    
+    
+    
+
+
+.fuente-L {
+    width: auto;
+    height: auto;
+    padding: 150px;
+    margin: 300px;
+    border-style: inset;
+
+}
+
+/*CSS KITCHENS*/
+.centrarfotok {
+    text-align: center;
+    font-size: 100px;
+    padding: 10%
+    }
+
+
+.parrafo-K {
+    text-align: center;
+    font-weight: bold;
+    background-color: aliceblue;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15%;
+    padding: 10%;
+    animation-duration: 1s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+}
+ @keyframes aparecer {
+     0% {
+         opacity: 0;
+     }
+     100%{
+         opacity: 1;
+     }
+ }
+
+    
+    
+
+
+
+
+/*CSS BEDROOM*/
+.centrarfoto-b {
+    text-align: center;
+    font-size: 100px;
+    padding: 10%
+    }
+
+
+.parrafo-b {
+    text-align: center;
+    font-weight: bold;
+    background-color: aliceblue;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15%;
+    padding: 10%;
+    animation-duration: 1s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+}
+ @keyframes aparecer {
+     0% {
+         opacity: 0;
+     }
+     100%{
+         opacity: 1;
+     }
+ }
+
+
+
+.fuente-b{
+    width: auto;
+    height: auto;
+    padding: 150px;
+    margin: 300px;
+    border-style: inset;
+
+}
+
+/*MENU*/
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(191, 218, 241);
+    width: 1000%;
+    max-width:100%;
+    margin: center;
+ text-align: center;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.menu li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 40px 60px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background-color: white
+}
+.fotologo{
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    
+
+}
+.Logo {
+    text-align: center;
+
+}
+
+.Boos{
+    size: 100px;
+}
+
+
+
+/*CSS GARDEN*/
+.centrarfoto-g {
+    text-align: center;
+    font-size: 100px;
+    padding: 10%
+    }
+
+
+.parrafo-g {
+    text-align: center;
+    font-weight: bold;
+    background-color: aliceblue;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15%;
+    padding: 10%;
+    
+    
+}
+
+.fuente-g{
+    width: auto;
+    height: auto;
+    padding: 150px;
+    margin: 300px;
+    border-style: inset;
+}
+   
+.form {
+    width: 500px;
+    height: 400px;
+font-size: 20px;
+
+    
+}
+
+
+
+/*MEDIA QUERIES*/
+
+
+@media screen and (max-width: 480px) {
+    body  {
+      
+       grid-column: 1/4;
+       width: 100%;
+     
+    }
+.menu{
+    flex-grow: 1;
+    flex-wrap: wrap;
+    display: inline;
+}
+.parraf{
+    flex-grow: 1;
+        font-size: 15px;
+        text-align: center;
+        margin: 20%;
+        padding: 5%;
+        width: 60%;
+        height: auto;
+        background-color: aliceblue;
+        margin-top: 15%;
+        animation-duration: 1s;
+        animation-name: aparecer;
+        animation-iteration-count: infinite;
+        overflow: hidden;
+        text-align: center;
+    } 
+    .footer{
+      
+        width: 100%;
+   text-align: center;
+  
+    
+    }
+    .form{
+     text-align: center;
+    }
+    
+    .header .navbar-conteiner{
+        flex-wrap: wrap;
+        display: inline;
+    }
+    
+    
+    .titulo-diseño {
+        text-align:center;
+        position: static;
+    
+    
+     }
+ 
+}
+
+
+  @media screen and (max-width: 600px) {
+    .menu{
+        flex-grow: 1;
+        flex-wrap: wrap;
+    }
+    .parraf{
+        flex-grow: 1; 
+    }
+    .footer{
+        flex-grow: 1;
+        flex-wrap: wrap;
+    
+    }
+
+     
+  }
+   
+  @media screen and (min-width: 1024px) {
+    body  {
+      
+       grid-column: 1/4;
+       width: 100%;
+     
+    }
+
+    .amelia {
+        transform: translate(70px, 20px);
+
+       }
+   
+
+.menu{
+    flex-grow: 1;
+    flex-wrap: wrap;
+    display: inline;
+}
+.parraf{
+    flex-grow: 1;
+        font-size: 25px;
+        text-align: center;
+        margin: 20%;
+        padding: 5%;
+        width: 60%;
+        height: auto;
+        background-color: aliceblue;
+        margin-top: 15%;
+        animation-duration: 1s;
+        animation-name: aparecer;
+        animation-iteration-count: infinite;
+        overflow: hidden;
+        text-align: center;
+        
+    } 
+    .footer{
+      
+        width: 100%;
+   text-align: center;
+   height: 100px;
+   transition: 2s;
+    }
+    .footer:hover{
+height: 200px;
+
+
+
+    }
+    .form{
+     text-align: center;
+    }
+    
+    .header .navbar-conteiner{
+        flex-wrap: wrap;
+        display: inline;
+    }
+    
+    
+    .titulo-diseño {
+        text-align:center;
+        position: static;
+    
+    
+     }
+  .fotologo{
+      width: 20px;
+      height: 20px;
+      text-align: center;
+  }
+}
+
